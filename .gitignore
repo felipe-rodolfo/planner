@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Diretório do banco de dados SQLite
+*.sqlite
+prisma/dev.db
+# Dependências do ambiente
+node_modules/
+
+# Arquivo de variáveis de ambiente
+.env
+
+# Diretórios de builds
+dist/
+build/
+
+# Arquivos de cache do TypeScript
+*.tsbuildinfo
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do editor de texto
+.idea/
+.vscode/
+
+# Arquivos de lock
+package-lock.json
+yarn.lock
